@@ -13,6 +13,7 @@ header{
 /* Add a fun background color to the main element */
 main{
     background-color: rgb(185, 173, 208);
+    height: 200px;
     width: 580px;
     padding: 30px;
     margin: 75px;
@@ -31,13 +32,20 @@ p{
 
 /* Put a border around your image */
 img { 
-        margin: 15px;
+        margin: 35px;
         border: 9px solid #5a4a97;
         float: left;
         width: 55px;
       }
       
+      img {
 
+        height: auto;
+        max-width: 100%;
+      
+      }
+      
+      
 /* Change the font-family of your list */
 ul{ 
     font-family: "Times New Roman", Times, serif;
