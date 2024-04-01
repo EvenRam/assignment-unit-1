@@ -1,8 +1,24 @@
 /* Add a background color to the header element */
-header{background-color: rgb(32, 202, 126);}
+header{
+    background-color: rgb(91, 213, 187);
+        width: 600px;
+        border: 15px solid rgb(31, 110, 134);
+        padding: 60px;
+        margin: 25px;
+
+
+}
+
 
 /* Add a fun background color to the main element */
-main{background-color: rgb(91, 213, 187);}
+main{
+    background-color: rgb(185, 173, 208);
+    width: 580px;
+    padding: 30px;
+    margin: 75px;
+
+
+}
 
 /* Align the h1 containing your name in the center of the header*/
 h1{text-align: center;}
@@ -15,15 +31,26 @@ p{
 
 /* Put a border around your image */
 img { 
-    border: 30px solid rgb(132, 221, 208);
-}
+        margin: 15px;
+        border: 9px solid #5a4a97;
+        float: left;
+        width: 55px;
+      }
+      
+
 /* Change the font-family of your list */
 ul{ 
-    font-family:  'Lucida Sans Regular', 'Lucida Grande',' Geneva', 'Verdana';
+    font-family: "Times New Roman", Times, serif;
 }
+
 
 /* Add a background color to the footer element */
 
 footer{
     background-color: lightblue;
+    text-align: center;
+    width: 450px;
+    margin: 105px;
+
+
 }
